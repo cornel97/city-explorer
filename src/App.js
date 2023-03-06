@@ -2,7 +2,6 @@ import "./App.css";
 import axios from "axios";
 import { useState } from "react";
 
-//pk.65a909ec4c2b9a05da2bb94ee35398da
 function App() {
   const [location, setLocation] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
